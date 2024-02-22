@@ -1,0 +1,19 @@
+per trasformare in hex:
+1. andare su:
+https://www.mischianti.org/images-to-byte-array-online-converter-cpp-arduino/
+
+2. caricare il file .bmp
+
+3. invertire i colori se si vuole l'immagine colorata giusta (non invertita)
+
+4. cliccare GENERATE CODE
+
+5. copiare il codice generato nella seguente dichiarazione:
+const unsigned char NOME_BITMAP[] = { INSERIRE_IL_CODICE_GENERATO_QUI};
+
+6. creare un nuovo file bitmap.h (header file) nella cartella Core/Inc dove verranno inseriti tutti i bitmap.
+
+7. incollare il punto 5 all'interno del file appena creato
+
+8. includere nel main.c il file creato
+#include "bitmap.h"
