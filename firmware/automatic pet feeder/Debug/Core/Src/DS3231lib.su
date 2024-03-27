@@ -1,0 +1,4 @@
+../Core/Src/DS3231lib.c:11:9:decToBcd	16	static
+../Core/Src/DS3231lib.c:16:5:bcdToDec	0	static
+../Core/Src/DS3231lib.c:21:6:Set_Time	64	static
+../Core/Src/DS3231lib.c:38:6:Get_Time	64	static

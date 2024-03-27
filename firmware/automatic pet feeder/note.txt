@@ -1,0 +1,34 @@
+PROBLEMI DA RISOLVERE:
+
+
+COSE DA FINIRE:
+
+
+COSE DA FARE:
+- aggiunta di impostazione data giorno ecc. (manca solo da fare nel menu set time)
+- implementazione cibo esaurito/scarso
+ > scritta e suono che dopo ogni pasto, come avviso (da decidere)
+- disattivazione motore/pasti in caso di mancaza di alimentazione
+- sleep mode in caso di alimentazione via batteria. Accensione display solo in caso di qualche bottone premuto e poi di nuovo in sleep mode.
+- decidere se cambiare il tipo di pasto, invece di lunch, break e dinner, fare tipo quantità 1,2....
+
+COSE FATTE:
+- schermo luminosità ridotta dopo tot tempo che non è stato utilizzato
+ > luminosità riattivata prima di un evento			STO FACENDO
+- quando viee cambiata l'ora i pasti vengono eseguiti anche se non è l'ora giusta
+- aggiornamento tempo costante
+- controllo motore con interrupt timer da 2Hz (ora si usa il getTick())
+- il motore gira per troppo tempo rispetto quello impostato
+- visualizzazione pasti non fatti menu principale
+- gestione pasti
+ > alle 00:00 resettare lo stato (fatto o meno) di ogni pasto con ancora da fare
+- menu impostazione tempo
+ > classica modifica tempo
+- menu type sett.
+ > imposta i 3 tipi di livelli di cibo
+- attivazione e disattivazione dispositivo
+menu meal sett.
+ > selezione tutti gli elementi
+  * manca l'ora, il resto è fatto
+ > cambio ora pasto
+- interrupt timer che cambia il colore delle scritte (per il lampeggio)

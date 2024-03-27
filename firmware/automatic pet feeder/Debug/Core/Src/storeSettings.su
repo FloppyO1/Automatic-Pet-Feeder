@@ -1,0 +1,2 @@
+../Core/Src/storeSettings.c:10:6:storeSettings	72	static
+../Core/Src/storeSettings.c:34:6:getSettings	48	static

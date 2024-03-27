@@ -1,0 +1,3 @@
+../Core/Src/motor.c:64:6:disableMotor	16	static
+../Core/Src/motor.c:17:9:quatrerTurn	32	static
+../Core/Src/motor.c:71:6:printFeeding	8	static
